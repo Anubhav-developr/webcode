@@ -1,0 +1,44 @@
+#flex {
+    display: flex;
+    justify-content: space-evenly;
+ 
+   
+}
+*{
+    background-color: blueviolet;
+}
+
+#content{
+    padding: 30px;
+}
+#imgy{
+    border: 5px solid #d3ed2a;
+    border-radius: 50%;
+}
+.paraa{
+font-size: 45px;    
+}
+#imgdiv {
+    padding-top: 5em;
+}
+.centor{
+    height: 200px;
+    position: relative;
+   
+    border-radius: 50%;
+  
+}
+.container {
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.gridy{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
