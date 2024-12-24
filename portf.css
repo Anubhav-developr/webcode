@@ -6,10 +6,12 @@
 }
 *{
     background-color: blueviolet;
+    font-family: cursive;
 }
 
 #content{
     padding: 30px;
+    
 }
 #imgy{
     border: 5px solid #d3ed2a;
